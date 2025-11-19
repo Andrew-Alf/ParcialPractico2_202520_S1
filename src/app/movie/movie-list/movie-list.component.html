@@ -24,7 +24,19 @@
         <td>{{ movie.director }}</td>
         <td>{{ movie.releaseYear }}</td>
         <td>{{ movie.rating }}</td>
+        
       </tr>
+      <tr *ngFor="let p of displayedMovies; track movie.id">
+          <tr (click)="onSelect(movie)">
+        <td>
+          <b>{{ movie.title }}</b>
+        </td>
+        <td>
+          <img class="poster-img" [src]="movie.posterImageUrl" alt="{{ movie.title }} poster" />
+        </td>
+        <td>{{ movie.director }}</td>
+        <td>{{ movie.releaseYear }}</td>
+        <td>{{ movie.rating }}</td>
       }
     </table>
   </div>

@@ -22,5 +22,5 @@ export class MovieService {
     const url = `${this.detailUrl}/${id}`;
     return this.http.get<Movie>(url);
   }
-  
+
 }

@@ -1,4 +1,4 @@
 # Parcial Práctico 2
 
-- Nombre:
-- código:
+- Nombre: Andrés Felipe Alfonso Gamba
+- Código: 202210412
